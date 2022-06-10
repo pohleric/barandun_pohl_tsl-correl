@@ -16,11 +16,6 @@ mnt = r'Z:/'
 # PAR base file from the map_all_summary.csv files
 par_infile = mnt+'data/2d_PTS_pars_static_filtered_k-means_clusters.csv'
 
-# output spatial correlation (all variables for multiple linear regression)
-par_outfile_short = mnt+'data/correlation_spatial/2d_PTS_filtered_correlation_spatial_short.csv'
-par_outfile_short_morph = mnt+'data/correlation_spatial/2d_PTS_filtered_correlation_spatial_short_morph.csv'
-par_outfile_long = mnt+'data/correlation_spatial/2d_PTS_filtered_correlation_spatial_long.csv'
-par_outfile_long_morph = mnt+'data/correlation_spatial/2d_PTS_filtered_correlation_spatial_long_morph.csv'
 
 # output PAR files for spatial correlation in R - Estimates MARTINA
 par_input_outfile_short = mnt+'data/correlation_spatial/2d_PTS_filtered_corInput_spatial_short.csv'
